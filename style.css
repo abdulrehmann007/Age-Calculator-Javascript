@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+body{
+    background-image:url('./media/shadow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background: #520105;
+    box-shadow: 0 0 2px 2px rgb(12, 20, 32, .7);
+    width: 800px;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.container .display-column ul{
+    width: 770px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.container .display-column ul li{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.container .display-column ul li span{
+    background: white;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.container .display-column ul li{
+    text-align: center;
+    color: white;
+}
+
+.container .submission{
+    margin-top: 20px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .submission input{
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+    padding:0 15px;
+    margin-right: 20px;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.container .submission button{
+    width: 90px;
+    height: 40px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container .submission button:hover{
+    background: rgb(58, 14, 255);
+}
+
+.container .submission button:active{
+    background: rgb(0, 174, 255);
+}
